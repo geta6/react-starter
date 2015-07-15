@@ -36,7 +36,7 @@
     "superagent": "^1.2.0"
   },
   "optionalDependencies": {
-    "babel-loader": "^5.3.1",
+    "babel-loader": "^5.3.2",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-changed": "^1.2.1",
