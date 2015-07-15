@@ -1,0 +1,10 @@
+{
+  "esprima": "esprima-fb",
+  "excludeFiles": ["build/**", "node_modules/**"],
+  "preset": "google",
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "validateLineBreaks": "LF",
+  "validateIndentation": 2,
+  "maximumLineLength": 120
+}

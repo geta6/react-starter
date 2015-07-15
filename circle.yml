@@ -1,0 +1,15 @@
+machine:
+  timezone:
+    Asia/Tokyo
+
+dependencies:
+  override:
+    - nvm install
+    - nvm use && npm prune
+    - nvm use && npm install
+  cache_directories:
+    - "node_modules"
+
+test:
+  override:
+    - nvm use && npm test

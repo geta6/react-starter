@@ -1,0 +1,19 @@
+# Ignore tempfiles.
+/public
+/tmp
+
+# Ignore user specific config files.
+/.bundle
+
+# Ignore modules.
+/vendor
+node_modules
+bower_components
+
+# Ignore npm garbages.
+npm-debug.log
+
+# Ignore system files.
+.DS_Store
+*.sw*
+.settings
